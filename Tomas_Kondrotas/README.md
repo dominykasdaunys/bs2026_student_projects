@@ -23,10 +23,11 @@ A web app for tracking Old School RuneScape Grand Exchange prices, finding high-
    pip install flask requests
    ```
 
-2. (Optional) Scrape item icons — only needed once:
+2. Scrape item icons — **required on first run** (icons are not included in the repo):
    ```bash
    python scrape_osrs_icons.py
    ```
+   This downloads all item sprites into the `images/` folder. It only needs to be run once.
 
 3. Run the app:
    ```bash
